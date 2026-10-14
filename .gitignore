@@ -6,3 +6,12 @@ build/
 .env.local
 .idea/
 .vscode/
+node_modules/
+dist/
+build/
+.next/
+.env
+.env.local
+.idea/
+.vscode/
+*.tsbuildinfo
