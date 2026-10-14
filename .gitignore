@@ -1,4 +1,4 @@
-﻿node_modules/
+node_modules/
 dist/
 build/
 .next/
@@ -10,8 +10,10 @@ node_modules/
 dist/
 build/
 .next/
-.env
-.env.local
 .idea/
 .vscode/
 *.tsbuildinfo
+
+# Ignore all local environment files while allowing a safe template
+.env*
+!.env.example
