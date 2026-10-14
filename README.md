@@ -1,210 +1,151 @@
-# Wissem Attouf — Portfolio
+<!--
+  Wissem Attouf — GitHub profile README
+  Keep project claims aligned with the public repositories and portfolio.
+-->
 
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-61DAFB?logo=react&logoColor=black)](https://react.dev/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com/)
+<div align="center">
 
-**Personal portfolio of Wissem Attouf, Software Engineer and Full Stack Developer based in Tunis, Tunisia.**
+# Wissem Attouf
+### Software Engineer · Full-Stack & Mobile Developer
 
-🌐 **Live website:** https://wissem-portfolio.vercel.app/  
-💼 **LinkedIn:** https://www.linkedin.com/in/wissem-attouf-452509226/  
-📧 **Email:** wattouf35@gmail.com
+**I build practical web and mobile applications, from user-facing interfaces to REST APIs and relational data.**
 
-[English](#english) · [Français](#français)
+Tunis, Tunisia · Open to software engineering roles and freelance collaborations
+
+[Portfolio](https://wissem-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wissem-attouf-452509226/) · [Email](mailto:wattouf35@gmail.com)
+
+</div>
 
 ---
 
-## English
+## About
 
-### Overview
+I am a Software Engineer graduated in **Software Engineering and Information Systems** from **iTeam University**. My recent professional experience at **Neivos Groupe (September 2025 – June 2026)** focused on mobile development with Flutter/Dart, backend development with Node.js/Express.js, REST API integration, and MySQL.
 
-A responsive, bilingual portfolio presenting my professional profile, technical skills, experience, and selected software projects. The site is built with Next.js and TypeScript, with dedicated French and English routes.
+I enjoy working across the application lifecycle: understanding a problem, shaping a usable interface, implementing application logic, connecting data and services, and improving maintainability through API documentation, testing, and deployment practices.
 
-### Features
+I am particularly interested in **Flutter/mobile development**, **Node.js backend engineering**, and **full-stack projects** where reliable APIs and a thoughtful user experience matter.
 
-- **Bilingual content:** French and English pages.
-- **Project case studies:** project summaries, technology stacks, features, workflows, and technical details where available.
-- **Professional profile:** about section, skills, work experience, and education.
-- **Contact links:** email, GitHub, and LinkedIn.
-- **Responsive interface:** layouts designed for mobile, tablet, and desktop.
-- **Motion and interaction:** subtle animations with Framer Motion.
-- **SEO foundations:** localized metadata, canonical URLs, language alternates, Open Graph metadata, and sitemap/robots support.
-- **Accessibility considerations:** semantic structure, keyboard focus styles, and reduced-motion support.
+- **Primary focus:** Flutter, Dart, Node.js, Express.js, REST APIs, MySQL
+- **Engineering practices:** Swagger/OpenAPI, Docker, CI/CD, unit testing, Git
+- **Also worked with:** Java, Spring Boot, PHP, Laravel, C#, ASP.NET Core, JavaScript, HTML, CSS
+- **Languages:** Arabic, French, English — see my CV/LinkedIn for the latest proficiency details
 
-### Tech stack
+## Selected Projects
 
-| Technology | Purpose |
-| --- | --- |
-| Next.js 15 | React framework and application routing |
-| React 19 | UI components |
-| TypeScript | Static typing |
-| Tailwind CSS | Styling and responsive layouts |
-| Framer Motion | Interface animations |
-| Lucide React | Icons |
+These projects show different parts of my development work: mobile workflows, backend/API design, responsive web experiences, and data-driven applications. Some are portfolio or learning projects; please use each repository's README for implementation details and setup requirements.
 
-### Featured projects
+### 1. Neivos Facture — Mobile Invoice Workflow
+**Flutter · Dart · Node.js · Express · MySQL/MariaDB · OCR service**
 
-#### Neivos Facture
+A mobile invoice-management application exploring a workflow from capturing or selecting an invoice, through OCR-assisted extraction and review, to organizing invoice records and presenting financial data.
 
-A mobile invoicing application concept focused on invoice scanning, AI-assisted extraction of financial data, user review, and PDF/Excel reporting.
+- Flutter mobile interface and invoice-related screens
+- REST API integration with a Node.js/Express backend
+- Relational persistence for invoice records
+- Integration with a separate OCR service; processing depends on that service being available
 
-**Technologies listed in the portfolio:** Flutter, Dart.
+[Source code](https://github.com/WissemAttouf/Neivos-Facture)
 
-#### Camping Management Platform
+### 2. Neivos Groupe — Company Website & Web Platform
+**HTML · CSS · JavaScript · Node.js · Express · MySQL**
 
-A web application focused on campsite operations, reservations, user roles, and administration.
+A responsive digital platform combining a public company website with client-facing flows and administration features.
 
-**Technologies listed in the portfolio:** PHP, Laravel, MySQL, JavaScript, Bootstrap.
+- REST backend and MySQL persistence
+- Authentication and protected administration routes
+- Service and request management features
+- Deployment demo available
 
-> Project descriptions reflect the information currently documented in the portfolio. Public demo and source-code links should only be added when they are available and can be verified.
+[Live demo](https://neivos-groupe.vercel.app/) · [Source code](https://github.com/WissemAttouf/Neivos-Groupe)
 
-### Run locally
+### 3. Wakti — Quran, Prayer Times & Hijri Calendar
+**HTML · CSS · JavaScript · PWA · Service Worker · Vercel**
 
-#### Requirements
+A responsive, installable web application bringing Quran reading and recitation, prayer times, and calendar features into one interface.
 
-- Node.js **20.9.0 or newer**
-- npm
+- Progressive Web App foundations and service-worker caching
+- Mobile/desktop layouts and theme options
+- Integration with external Quran and prayer-time data providers
 
-#### Installation
+[Live demo](https://wakti-ashen.vercel.app/) · [Source code](https://github.com/WissemAttouf/Wakti)
 
-```bash
-git clone https://github.com/WissemAttouf/WissemAttouf.git
-cd WissemAttouf
-npm install
-npm run dev
-```
+### 4. Sport Club Management — Java REST Application
+**Java · Spring Boot · Spring Data JPA · Thymeleaf · OpenAPI/Swagger · Docker**
 
-Open [http://localhost:3000](http://localhost:3000) in your browser.
+A club-management application with server-rendered pages and a REST API for member management.
 
-### Quality checks
+- CRUD operations and member search
+- API documentation through Swagger/OpenAPI
+- Docker configuration and automated-test setup in the repository
 
-Run the configured checks before opening a pull request or deploying:
+[Live application](https://sport-club-management-production-6f45.up.railway.app/) · [Swagger UI](https://sport-club-management-production-6f45.up.railway.app/swagger-ui.html) · [Source code](https://github.com/WissemAttouf/sport-club-management)
 
-```bash
-npm run lint
-npm run typecheck
-npm run build
-```
+### 5. Real Café — Specialty Coffee Website Concept
+**HTML · CSS · JavaScript · Vercel Functions · Supabase · Playwright**
 
-Or run all three in sequence:
+A polished café web experience with menu discovery, reservation flows, a shop interface, and an administrative area.
 
-```bash
-npm run check
-```
+- Responsive visual design and multilingual content
+- Serverless endpoints and database integration
+- Browser-test setup using Playwright
 
-These commands are provided for verification; their presence in this README does not imply that the checks have already passed in every environment.
+[Live demo](https://grain-et-cendre-dusky.vercel.app/) · [Source code](https://github.com/WissemAttouf/Real-Cafe)
 
-### Deployment
+### 6. Météo Simple — Flutter Weather App
+**Flutter · Dart · REST APIs · OpenWeather · Open-Meteo**
 
-The project can be deployed on [Vercel](https://vercel.com/) by importing this GitHub repository and using the standard Next.js build settings.
+A weather app with city search, current conditions, weather details, and a five-day forecast.
 
-If you configure a custom production domain, set `NEXT_PUBLIC_SITE_URL` to the canonical site origin (for example, `https://your-domain.com`) in the Vercel environment variables, then redeploy. Ensure the value matches the public URL used by the site.
+[Source code](https://github.com/WissemAttouf/meteo-intelligent-flutter)
 
-### Repository structure
+### 7. Stock Management System
+**C# · ASP.NET Core MVC · Entity Framework Core · SQLite · Bootstrap**
 
-```text
-app/                 Next.js routes and layouts
-components/          Reusable UI and page sections
-data/                Site content, projects, experience, skills, translations
-lib/                 Shared helpers, metadata, and locale utilities
-public/              Static assets, images, and documents
-```
+A web application for product CRUD, search, and stock overview with calculated inventory summaries.
 
-### Contact
+[Source code](https://github.com/WissemAttouf/GestionStock)
+
+### 8. Camping Management
+**PHP · Laravel · MySQL · Blade · Bootstrap**
+
+A web project exploring the management of camping locations, services, guides, visitors, and reservations. The repository uses an older Laravel version, so it should be treated as a legacy/learning project rather than a current production template.
+
+[Source code](https://github.com/WissemAttouf/Gestion-Camping-)
+
+---
+
+## Technical Skills
+
+| Area | Technologies |
+|---|---|
+| Mobile | Flutter, Dart |
+| Backend & APIs | Node.js, Express.js, Java, Spring Boot, PHP, Laravel, REST, Swagger/OpenAPI |
+| Web | JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS |
+| Databases | MySQL, MariaDB, SQLite |
+| .NET | C#, ASP.NET Core MVC, Entity Framework Core |
+| Quality & delivery | Unit testing, JUnit/Spring Boot Test, Playwright, Docker, CI/CD, Git/GitHub |
+| Engineering | API integration, relational data modelling, MVC/layered architecture, responsive UI |
+
+I aim to keep project documentation useful for the next developer: clear setup instructions, honest scope, explicit dependencies, and links to working demos when available.
+
+## Professional Experience & Education
+
+- **Software Engineer / Full-Stack Developer — Neivos Groupe** · September 2025 – June 2026  
+  Flutter/Dart, Node.js/Express.js, API integration, MySQL, and development quality practices.
+- **Engineering degree — iTeam University** · July 2026  
+  Software Engineering and Information Systems.
+- Earlier roles and training are detailed on [LinkedIn](https://www.linkedin.com/in/wissem-attouf-452509226/).
+
+## Let's Connect
+
+If you are recruiting for a **Software Engineer, Full-Stack Developer, or Flutter Developer** role, or need a developer for a clearly scoped freelance project, I would be glad to discuss the requirements and the best technical approach.
 
 - **Portfolio:** https://wissem-portfolio.vercel.app/
 - **LinkedIn:** https://www.linkedin.com/in/wissem-attouf-452509226/
+- **Email:** [wattouf35@gmail.com](mailto:wattouf35@gmail.com)
 - **GitHub:** https://github.com/WissemAttouf
-- **Email:** wattouf35@gmail.com
 
 ---
 
-## Français
-
-### Présentation
-
-Portfolio personnel bilingue présentant mon profil professionnel, mes compétences techniques, mon expérience et une sélection de projets logiciels. Le site est développé avec Next.js et TypeScript, avec des routes dédiées au français et à l'anglais.
-
-### Fonctionnalités
-
-- **Contenu bilingue :** pages en français et en anglais.
-- **Études de cas :** présentation des projets, technologies, fonctionnalités, parcours utilisateur et détails techniques disponibles.
-- **Profil professionnel :** présentation, compétences, expériences et formation.
-- **Contact :** liens vers l'e-mail, GitHub et LinkedIn.
-- **Interface responsive :** adaptation aux mobiles, tablettes et ordinateurs.
-- **Animations discrètes :** interactions réalisées avec Framer Motion.
-- **Bases SEO :** métadonnées localisées, URL canoniques, alternates linguistiques, Open Graph et prise en charge du sitemap et de robots.txt.
-- **Accessibilité :** structure sémantique, focus clavier et prise en compte de la préférence de réduction des animations.
-
-### Technologies
-
-- **Next.js 15** — framework React et routage.
-- **React 19** — composants d'interface.
-- **TypeScript** — typage statique.
-- **Tailwind CSS** — styles et mise en page responsive.
-- **Framer Motion** — animations.
-- **Lucide React** — icônes.
-
-### Projets présentés
-
-- **Neivos Facture :** application mobile de facturation axée sur le scan de factures, l'extraction assistée par IA, la vérification des données et l'export PDF/Excel. Technologies indiquées : Flutter et Dart.
-- **Camping Management Platform :** application web orientée gestion de camping, réservations, rôles utilisateurs et administration. Technologies indiquées : PHP, Laravel, MySQL, JavaScript et Bootstrap.
-
-Les descriptions correspondent aux informations actuellement documentées dans le portfolio. N'ajouter des liens de démonstration ou de code source que lorsqu'ils sont disponibles et vérifiables.
-
-### Installation locale
-
-**Prérequis :** Node.js 20.9.0 ou plus récent et npm.
-
-```bash
-git clone https://github.com/WissemAttouf/WissemAttouf.git
-cd WissemAttouf
-npm install
-npm run dev
-```
-
-Ouvrir ensuite [http://localhost:3000](http://localhost:3000).
-
-### Vérifications
-
-```bash
-npm run lint
-npm run typecheck
-npm run build
-```
-
-Ou lancer les trois contrôles à la suite :
-
-```bash
-npm run check
-```
-
-Ces commandes permettent de vérifier le projet ; leur présence dans la documentation ne signifie pas que les contrôles ont déjà réussi dans tous les environnements.
-
-### Déploiement
-
-Le projet peut être déployé sur [Vercel](https://vercel.com/) en important ce dépôt GitHub et en conservant les paramètres de build Next.js standards.
-
-Si tu utilises un domaine de production personnalisé, configure la variable d'environnement `NEXT_PUBLIC_SITE_URL` avec l'URL canonique du site, puis redéploie.
-
-### Structure du dépôt
-
-```text
-app/                 Routes et layouts Next.js
-components/          Composants réutilisables et sections
-data/                Contenus, projets, expériences, compétences, traductions
-lib/                 Fonctions partagées, métadonnées et outils de langue
-public/              Ressources statiques, images et documents
-```
-
-### Contact
-
-- **Portfolio :** https://wissem-portfolio.vercel.app/
-- **LinkedIn :** https://www.linkedin.com/in/wissem-attouf-452509226/
-- **GitHub :** https://github.com/WissemAttouf
-- **E-mail :** wattouf35@gmail.com
-
----
-
-Built with Next.js, TypeScript, and Tailwind CSS by Wissem Attouf.
+<sub>Based in Tunisia · Project descriptions are intentionally limited to features and technologies documented in the linked repositories. Live demos may depend on external services or deployment configuration.</sub>
