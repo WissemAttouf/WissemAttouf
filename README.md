@@ -203,6 +203,3 @@ Software Engineering and Information Systems — iTeam University, July 2026.
 ISI Kef, 2019–2022.
 
 ---
-
-*Interested in software engineering, mobile development, backend systems, and building useful digital products.*
->>>>>>> 98a25de39ee39d3d7bfc572ceb51a0226ad6c461
