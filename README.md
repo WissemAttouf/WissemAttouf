@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Wissem Attouf — Portfolio
 
 Bilingual (English / French) portfolio built with **Next.js (App Router)**, **TypeScript (strict)**,
