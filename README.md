@@ -6,7 +6,7 @@
 <div align="center">
 
 # Wissem Attouf
-### Software Engineer · Full-Stack & Mobile Developer
+### Software Engineer | Full-Stack Developer
 
 **I build practical web and mobile applications, from user-facing interfaces to REST APIs and relational data.**
 
@@ -20,13 +20,14 @@ Tunis, Tunisia · Open to software engineering roles and freelance collaboration
 
 ## About
 
-I am a Software Engineer graduated in **Software Engineering and Information Systems** from **iTeam University**. My recent professional experience at **Neivos Groupe (September 2025 – June 2026)** focused on mobile development with Flutter/Dart, backend development with Node.js/Express.js, REST API integration, and MySQL.
+I am a Software Engineer with a background in **Software Engineering and Information Systems** from **iTeam University**. From **June 2025 to June 2026**, I worked as a salaried Full-Stack Developer at **Neivos Groupe** and completed my final-year project (PFE), **Neivos Facture**, within the startup. My work and projects span mobile development with Flutter/Dart, Node.js/Express.js backend development, REST API integration, and MySQL.
 
 I enjoy working across the application lifecycle: understanding a problem, shaping a usable interface, implementing application logic, connecting data and services, and improving maintainability through API documentation, testing, and deployment practices.
 
-I am particularly interested in **Flutter/mobile development**, **Node.js backend engineering**, and **full-stack projects** where reliable APIs and a thoughtful user experience matter.
+I am interested in **full-stack software engineering** across web, mobile, and backend development, especially projects where reliable APIs, maintainable architecture, and a thoughtful user experience matter.
 
-- **Primary focus:** Flutter, Dart, Node.js, Express.js, REST APIs, MySQL
+- **Professional title:** Software Engineer | Full-Stack Developer
+- **Core technologies:** Flutter, Dart, Node.js, Express.js, REST APIs, MySQL
 - **Engineering practices:** Swagger/OpenAPI, Docker, CI/CD, unit testing, Git
 - **Also worked with:** Java, Spring Boot, PHP, Laravel, C#, ASP.NET Core, JavaScript, HTML, CSS
 - **Languages:** Arabic, French, English — see my CV/LinkedIn for the latest proficiency details
@@ -131,11 +132,19 @@ I aim to keep project documentation useful for the next developer: clear setup i
 
 ## Professional Experience & Education
 
-- **Software Engineer / Full-Stack Developer — Neivos Groupe** · September 2025 – June 2026  
-  Flutter/Dart, Node.js/Express.js, API integration, MySQL, and development quality practices.
-- **Engineering degree — iTeam University** · July 2026  
+- **Full-Stack Developer — Neivos Groupe** · June 2025 – June 2026  
+  Salaried role; completed the **Neivos Facture** final-year project (PFE) within the startup. Technologies included Flutter/Dart, Node.js/Express.js, REST APIs, and MySQL.
+- **Technical & Commercial Manager — HexaByte** · June 2026 – September 2026
+- **Credit Agent — Enda Tamweel** · April 2023 – November 2024
+- **Full-Stack Developer Intern — Société de Ciment d’Oum El Kelil (C.I.O.K)** · June 2021 – August 2021
+- **Web Development PFE Intern — Sprint Code** · January 2022 – June 2022  
+  Final-year project: Camping Management Platform.
+- **Engineering degree — iTeam University** · September 2023 – July 2026  
   Software Engineering and Information Systems.
-- Earlier roles and training are detailed on [LinkedIn](https://www.linkedin.com/in/wissem-attouf-452509226/).
+- **National Bachelor’s degree in Computer Science — ISI Kef** · September 2019 – June 2022  
+  Software Engineering and Information Systems.
+
+**Certifications:** LaTeX (iTeam University, 2026) · Flutter & Dart (iTeam University, 2024) · Laravel (ISI Kef, 2021) · JavaScript (ISI Kef, 2021) · Photoshop (ISI Kef, 2020).
 
 ## Let's Connect
 
