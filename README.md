@@ -17,11 +17,15 @@ Tunis, Tunisie · Ouvert aux opportunités professionnelles et aux missions free
 
 ---
 
-## 👨‍💻 À propos
+## 👨‍💻 À propos de moi
 
-Diplômé en 2026 d’**iTeam University** en ingénierie informatique, parcours **Génie Logiciel et Systèmes d’Information**, je développe des applications web, mobiles et back-end. Mon expérience comprend un poste salarié de développeur Full Stack chez **Neivos Groupe** de juin 2025 à juin 2026, au cours duquel j’ai également réalisé mon projet de fin d’études consacré à **Neivos Facture**, une application mobile de traitement de factures intégrant un workflow OCR.
+Je suis **ingénieur en informatique et développeur Full Stack**, diplômé d’**iTeam University** en Génie Logiciel et Systèmes d’Information. J’ai acquis une expérience professionnelle chez **Neivos Groupe**, où j’ai travaillé avec Flutter, Dart, Node.js, Express.js, MySQL et les API REST. J’aime concevoir des solutions fiables et maintenables, en accordant une attention particulière à la qualité du code et à l’expérience utilisateur.
 
-J’apprécie les projets qui demandent de relier une interface claire à une logique métier fiable, des API documentées et une persistance des données maintenable.
+- 🔭 **Mes projets :** développement d’applications web et mobiles, d’API REST et de solutions de gestion.
+- 🌱 **Mes axes de progression :** approfondir mes compétences en architecture logicielle, en développement back-end avec Spring Boot et en pratiques DevOps.
+- 🤝 **Je souhaite collaborer sur :** des projets open source, des applications innovantes et des projets qui me permettent de relever de nouveaux défis techniques.
+- 💬 **Parlons de :** Flutter, Dart, Node.js, Express.js, Java, Spring Boot, MySQL, API REST, Docker et CI/CD.
+- ⚡ **Ma philosophie :** transformer des besoins complexes en solutions logicielles simples, efficaces et évolutives.
 
 ## 🛠️ Compétences techniques
 
