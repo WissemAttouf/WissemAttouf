@@ -1,160 +1,115 @@
-<!--
-  Wissem Attouf — GitHub profile README
-  Keep project claims aligned with the public repositories and portfolio.
--->
-
 <div align="center">
 
 # Wissem Attouf
-### Software Engineer | Full-Stack Developer
+### Ingénieur logiciel | Développeur Full Stack
 
-**I build practical web and mobile applications, from user-facing interfaces to REST APIs and relational data.**
+**Je conçois et développe des applications web et mobiles, des API REST et des solutions connectées à des bases de données relationnelles.**
 
-Tunis, Tunisia · Open to software engineering roles and freelance collaborations
+Tunis, Tunisie · Ouvert aux opportunités professionnelles et aux missions freelance
 
-[Portfolio](https://wissem-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wissem-attouf-452509226/) · [Email](mailto:wattouf35@gmail.com)
+[Portfolio](https://wissem-portfolio.vercel.app/) · [LinkedIn](https://www.linkedin.com/in/wissem-attouf-452509226/) · [Me contacter](mailto:wattouf35@gmail.com)
 
 </div>
 
 ---
 
-## About
+## À propos
 
-I am a Software Engineer with a background in **Software Engineering and Information Systems** from **iTeam University**. From **June 2025 to June 2026**, I worked as a salaried Full-Stack Developer at **Neivos Groupe** and completed my final-year project (PFE), **Neivos Facture**, within the startup. My work and projects span mobile development with Flutter/Dart, Node.js/Express.js backend development, REST API integration, and MySQL.
+Diplômé en 2026 d’**iTeam University** en ingénierie informatique, parcours **Génie Logiciel et Systèmes d’Information**, je développe des applications web, mobiles et back-end. Mon expérience comprend un poste salarié de développeur Full Stack chez **Neivos Groupe** de juin 2025 à juin 2026, au cours duquel j’ai également réalisé mon projet de fin d’études consacré à **Neivos Facture**, une application mobile de traitement de factures intégrant un workflow OCR.
 
-I enjoy working across the application lifecycle: understanding a problem, shaping a usable interface, implementing application logic, connecting data and services, and improving maintainability through API documentation, testing, and deployment practices.
+J’apprécie les projets qui demandent de relier une interface claire à une logique métier fiable, des API documentées et une persistance des données maintenable.
 
-I am interested in **full-stack software engineering** across web, mobile, and backend development, especially projects where reliable APIs, maintainable architecture, and a thoughtful user experience matter.
+## Compétences techniques
 
-- **Professional title:** Software Engineer | Full-Stack Developer
-- **Core technologies:** Flutter, Dart, Node.js, Express.js, REST APIs, MySQL
-- **Engineering practices:** Swagger/OpenAPI, Docker, CI/CD, unit testing, Git
-- **Also worked with:** Java, Spring Boot, PHP, Laravel, C#, ASP.NET Core, JavaScript, HTML, CSS
-- **Languages:** Arabic, French, English — see my CV/LinkedIn for the latest proficiency details
+- **Mobile :** Flutter, Dart
+- **Back-end :** Node.js, Express.js, Java, Spring Boot, PHP, Laravel, .NET
+- **Front-end :** HTML, CSS, JavaScript, Bootstrap
+- **Bases de données :** MySQL, MariaDB
+- **API et documentation :** API REST, Swagger/OpenAPI
+- **Qualité et DevOps :** tests unitaires, Docker, CI/CD, Git
+- **Autres outils :** CRUDbooster, Adobe Photoshop
 
-## Selected Projects
+## Projets
 
-These projects show different parts of my development work: mobile workflows, backend/API design, responsive web experiences, and data-driven applications. Some are portfolio or learning projects; please use each repository's README for implementation details and setup requirements.
+### Neivos Facture — Application mobile de traitement de factures
+**Flutter · Dart · Node.js · Express.js · MySQL · OCR**
 
-### 1. Neivos Facture — Mobile Invoice Workflow
-**Flutter · Dart · Node.js · Express · MySQL/MariaDB · OCR service**
+Projet de fin d’études : application mobile destinée à faciliter la numérisation et le traitement de factures, avec extraction assistée des informations et intégration à une API REST.
 
-A mobile invoice-management application exploring a workflow from capturing or selecting an invoice, through OCR-assisted extraction and review, to organizing invoice records and presenting financial data.
+[Consulter le dépôt](https://github.com/WissemAttouf/Neivos-Facture)
 
-- Flutter mobile interface and invoice-related screens
-- REST API integration with a Node.js/Express backend
-- Relational persistence for invoice records
-- Integration with a separate OCR service; processing depends on that service being available
+### Neivos Groupe — Plateforme web
+**HTML · CSS · JavaScript · Node.js · Express.js · MySQL**
 
-[Source code](https://github.com/WissemAttouf/Neivos-Facture)
+Plateforme web avec vitrine publique, parcours clients et interface d’administration connectée à un backend.
 
-### 2. Neivos Groupe — Company Website & Web Platform
-**HTML · CSS · JavaScript · Node.js · Express · MySQL**
+[Démo](https://neivos-groupe.vercel.app/) · [Code source](https://github.com/WissemAttouf/Neivos-Groupe)
 
-A responsive digital platform combining a public company website with client-facing flows and administration features.
+### Wakti — Application web islamique
+**HTML · CSS · JavaScript · PWA**
 
-- REST backend and MySQL persistence
-- Authentication and protected administration routes
-- Service and request management features
-- Deployment demo available
+Application web consacrée à la lecture et à l’écoute du Coran, aux horaires de prière et au calendrier hégirien.
 
-[Live demo](https://neivos-groupe.vercel.app/) · [Source code](https://github.com/WissemAttouf/Neivos-Groupe)
+[Démo](https://wakti-ashen.vercel.app/) · [Code source](https://github.com/WissemAttouf/Wakti)
 
-### 3. Wakti — Quran, Prayer Times & Hijri Calendar
-**HTML · CSS · JavaScript · PWA · Service Worker · Vercel**
+### Sport Club Management — Gestion d’un club sportif
+**Java · Spring Boot · Thymeleaf · Spring Data JPA · Swagger · Docker**
 
-A responsive, installable web application bringing Quran reading and recitation, prayer times, and calendar features into one interface.
+Application web de gestion des membres d’un club sportif, accompagnée d’une API REST documentée.
 
-- Progressive Web App foundations and service-worker caching
-- Mobile/desktop layouts and theme options
-- Integration with external Quran and prayer-time data providers
+[Application](https://sport-club-management-production-6f45.up.railway.app/) · [Code source](https://github.com/WissemAttouf/sport-club-management)
 
-[Live demo](https://wakti-ashen.vercel.app/) · [Source code](https://github.com/WissemAttouf/Wakti)
+### Gestion de camping
+**PHP · Laravel · MySQL · JavaScript · Bootstrap**
 
-### 4. Sport Club Management — Java REST Application
-**Java · Spring Boot · Spring Data JPA · Thymeleaf · OpenAPI/Swagger · Docker**
+Projet web de gestion de ressources liées à un camping, développé dans le cadre de mon parcours à Sprint Code.
 
-A club-management application with server-rendered pages and a REST API for member management.
+[Code source](https://github.com/WissemAttouf/Gestion-Camping-)
 
-- CRUD operations and member search
-- API documentation through Swagger/OpenAPI
-- Docker configuration and automated-test setup in the repository
+### Real Café
+**HTML · CSS · JavaScript · Vercel · Supabase · Playwright**
 
-[Live application](https://sport-club-management-production-6f45.up.railway.app/) · [Swagger UI](https://sport-club-management-production-6f45.up.railway.app/swagger-ui.html) · [Source code](https://github.com/WissemAttouf/sport-club-management)
+Site web de café avec menu interactif, parcours de réservation, boutique et fonctionnalités d’administration.
 
-### 5. Real Café — Specialty Coffee Website Concept
-**HTML · CSS · JavaScript · Vercel Functions · Supabase · Playwright**
+[Démo](https://grain-et-cendre-dusky.vercel.app/) · [Code source](https://github.com/WissemAttouf/Real-Cafe)
 
-A polished café web experience with menu discovery, reservation flows, a shop interface, and an administrative area.
+### Gestion de stock
+**C# · ASP.NET Core MVC · Entity Framework Core · SQLite**
 
-- Responsive visual design and multilingual content
-- Serverless endpoints and database integration
-- Browser-test setup using Playwright
+Application de gestion de produits et de stocks avec recherche, opérations CRUD et indicateurs récapitulatifs.
 
-[Live demo](https://grain-et-cendre-dusky.vercel.app/) · [Source code](https://github.com/WissemAttouf/Real-Cafe)
+[Code source](https://github.com/WissemAttouf/GestionStock)
 
-### 6. Météo Simple — Flutter Weather App
-**Flutter · Dart · REST APIs · OpenWeather · Open-Meteo**
+### Météo intelligente avec Flutter
+**Flutter · Dart · API météo**
 
-A weather app with city search, current conditions, weather details, and a five-day forecast.
+Application mobile et web de consultation des conditions météorologiques et des prévisions.
 
-[Source code](https://github.com/WissemAttouf/meteo-intelligent-flutter)
+[Code source](https://github.com/WissemAttouf/meteo-intelligent-flutter)
 
-### 7. Stock Management System
-**C# · ASP.NET Core MVC · Entity Framework Core · SQLite · Bootstrap**
+## Expérience professionnelle
 
-A web application for product CRUD, search, and stock overview with calculated inventory summaries.
+- **HexaByte — Responsable technico-commercial** · juin 2026 – septembre 2026
+- **Neivos Groupe — Développeur Full Stack** · juin 2025 – juin 2026
+- **Enda Tamweel — Agent de crédit** · avril 2023 – novembre 2024
+- **Sprint Code — Stage de développement web** · janvier 2022 – juin 2022
+- **C.I.O.K. — Stage de développement Full Stack** · juin 2021 – août 2021
 
-[Source code](https://github.com/WissemAttouf/GestionStock)
+## Formation
 
-### 8. Camping Management
-**PHP · Laravel · MySQL · Blade · Bootstrap**
+- **Diplôme National d’Ingénieur en Informatique**, Génie Logiciel et Systèmes d’Information — iTeam University, 2023–2026
+- **Licence Nationale en Sciences Informatiques**, Génie Logiciel et Systèmes d’Information — ISI Kef, 2019–2022
 
-A web project exploring the management of camping locations, services, guides, visitors, and reservations. The repository uses an older Laravel version, so it should be treated as a legacy/learning project rather than a current production template.
+## Langues
 
-[Source code](https://github.com/WissemAttouf/Gestion-Camping-)
+Arabe · Français · Anglais
 
----
+## Contact
 
-## Technical Skills
-
-| Area | Technologies |
-|---|---|
-| Mobile | Flutter, Dart |
-| Backend & APIs | Node.js, Express.js, Java, Spring Boot, PHP, Laravel, REST, Swagger/OpenAPI |
-| Web | JavaScript, HTML5, CSS3, Bootstrap, Tailwind CSS |
-| Databases | MySQL, MariaDB, SQLite |
-| .NET | C#, ASP.NET Core MVC, Entity Framework Core |
-| Quality & delivery | Unit testing, JUnit/Spring Boot Test, Playwright, Docker, CI/CD, Git/GitHub |
-| Engineering | API integration, relational data modelling, MVC/layered architecture, responsive UI |
-
-I aim to keep project documentation useful for the next developer: clear setup instructions, honest scope, explicit dependencies, and links to working demos when available.
-
-## Professional Experience & Education
-
-- **Full-Stack Developer — Neivos Groupe** · June 2025 – June 2026  
-  Salaried role; completed the **Neivos Facture** final-year project (PFE) within the startup. Technologies included Flutter/Dart, Node.js/Express.js, REST APIs, and MySQL.
-- **Technical & Commercial Manager — HexaByte** · June 2026 – September 2026
-- **Credit Agent — Enda Tamweel** · April 2023 – November 2024
-- **Full-Stack Developer Intern — Société de Ciment d’Oum El Kelil (C.I.O.K)** · June 2021 – August 2021
-- **Web Development PFE Intern — Sprint Code** · January 2022 – June 2022  
-  Final-year project: Camping Management Platform.
-- **Engineering degree — iTeam University** · September 2023 – July 2026  
-  Software Engineering and Information Systems.
-- **National Bachelor’s degree in Computer Science — ISI Kef** · September 2019 – June 2022  
-  Software Engineering and Information Systems.
-
-**Certifications:** LaTeX (iTeam University, 2026) · Flutter & Dart (iTeam University, 2024) · Laravel (ISI Kef, 2021) · JavaScript (ISI Kef, 2021) · Photoshop (ISI Kef, 2020).
-
-## Let's Connect
-
-If you are recruiting for a **Software Engineer, Full-Stack Developer, or Flutter Developer** role, or need a developer for a clearly scoped freelance project, I would be glad to discuss the requirements and the best technical approach.
-
-- **Portfolio:** https://wissem-portfolio.vercel.app/
-- **LinkedIn:** https://www.linkedin.com/in/wissem-attouf-452509226/
-- **Email:** [wattouf35@gmail.com](mailto:wattouf35@gmail.com)
-- **GitHub:** https://github.com/WissemAttouf
+- **E-mail :** [wattouf35@gmail.com](mailto:wattouf35@gmail.com)
+- **LinkedIn :** [wissem-attouf](https://www.linkedin.com/in/wissem-attouf-452509226/)
+- **Portfolio :** [wissem-portfolio.vercel.app](https://wissem-portfolio.vercel.app/)
 
 ---
 
-<sub>Based in Tunisia · Project descriptions are intentionally limited to features and technologies documented in the linked repositories. Live demos may depend on external services or deployment configuration.</sub>
+*Merci de visiter mon profil GitHub. Les README de chaque dépôt présentent les détails techniques et les instructions propres à chaque projet.*
