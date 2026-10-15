@@ -1,7 +1,5 @@
 <div align="center">
 
-<div align="center">
-
 # Wissem Attouf
 ### Ingénieur logiciel | Développeur Full Stack
 
