@@ -1,7 +1,13 @@
 <div align="center">
 
+<div align="center">
+
 # Wissem Attouf
 ### Ingénieur logiciel | Développeur Full Stack
+
+<p>
+  <img src="https://komarev.com/ghpvc/?username=WissemAttouf&label=Visites%20du%20profil&color=2563eb&style=for-the-badge" alt="Compteur de visites du profil GitHub" />
+</p>
 
 **Je conçois et développe des applications web et mobiles, des API REST et des solutions connectées à des bases de données relationnelles.**
 
@@ -28,6 +34,20 @@ J’apprécie les projets qui demandent de relier une interface claire à une lo
 - **API et documentation :** API REST, Swagger/OpenAPI
 - **Qualité et DevOps :** tests unitaires, Docker, CI/CD, Git
 - **Autres outils :** CRUDbooster, Adobe Photoshop
+
+## 🧰 Technologies & outils
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=flutter,dart,nodejs,express,java,spring,php,laravel,js,html,css,bootstrap,mysql,docker,git,github&perline=8" alt="Icônes des technologies et outils utilisés" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Mobile-Flutter%20%7C%20Dart-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter et Dart" />
+  <img src="https://img.shields.io/badge/Backend-Node.js%20%7C%20Express-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js et Express" />
+  <img src="https://img.shields.io/badge/Database-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/DevOps-Docker%20%7C%20CI%2FCD-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker et CI/CD" />
+  <img src="https://img.shields.io/badge/API-REST%20%7C%20Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="API REST et Swagger" />
+</p>
 
 ## Projets
 
