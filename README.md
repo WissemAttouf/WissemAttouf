@@ -1,7 +1,7 @@
 <div align="center">
 
 # Wissem Attouf
-### Ingénieur logiciel | Développeur Full Stack
+### Ingénieur Informatique | Développeur Full Stack
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=WissemAttouf&label=Visites%20du%20profil&color=2563eb&style=for-the-badge" alt="Compteur de visites du profil GitHub" />
