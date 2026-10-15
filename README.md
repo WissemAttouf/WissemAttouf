@@ -104,6 +104,22 @@ Application mobile et web de consultation des conditions météorologiques et de
 
 Arabe · Français · Anglais
 
+## 📊 GitHub Stats
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=WissemAttouf&show_icons=true&theme=tokyonight&hide_border=true"
+    alt="Statistiques GitHub de Wissem Attouf"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=WissemAttouf&layout=compact&theme=tokyonight&hide_border=true"
+    alt="Langages les plus utilisés sur GitHub"
+  />
+</p>
+
 ## Contact
 
 - **E-mail :** [wattouf35@gmail.com](mailto:wattouf35@gmail.com)
