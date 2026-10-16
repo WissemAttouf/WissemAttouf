@@ -1,13 +1,13 @@
 <div align="center">
 
 # Wissem Attouf
-### Ingénieur Informatique | Développeur Full Stack
+### Software Engineer | Full-Stack Developer
 
 <p>
   <img src="https://komarev.com/ghpvc/?username=WissemAttouf&label=Visites%20du%20profil&color=2563eb&style=for-the-badge" alt="Compteur de visites du profil GitHub" />
 </p>
 
-**Je conçois et développe des applications web et mobiles, des API REST et des solutions connectées à des bases de données relationnelles.**
+**Ingénieur en informatique spécialisé en génie logiciel et systèmes d’information, je développe des applications web et mobiles ainsi que des API REST, avec une expérience professionnelle en développement Full Stack.**
 
 Tunis, Tunisie · Ouvert aux opportunités professionnelles et aux missions freelance
 
@@ -56,9 +56,30 @@ Je suis **ingénieur en informatique et développeur Full Stack**, diplômé d�
 ### 🧾 Neivos Facture — Application mobile de traitement de factures
 **Flutter · Dart · Node.js · Express.js · MySQL · OCR**
 
-Projet de fin d’études : application mobile destinée à faciliter la numérisation et le traitement de factures, avec extraction assistée des informations et intégration à une API REST.
+Projet de fin d’études réalisé chez Neivos Groupe : application mobile destinée à faciliter la numérisation et le traitement de factures, avec un workflow OCR et l’extraction des informations des documents, reliée à une API REST.
 
 [Consulter le dépôt](https://github.com/WissemAttouf/Neivos-Facture)
+
+### 🏆 Sport Club Management — Gestion d’un club sportif
+**Java 17 · Spring Boot · Spring Data JPA · Thymeleaf · Swagger/OpenAPI · Tests · Docker**
+
+Application web de gestion d’un club sportif avec persistance des données, interfaces web, API documentée et tests automatisés.
+
+[Application](https://sport-club-management-production-6f45.up.railway.app/) · [Code source](https://github.com/WissemAttouf/sport-club-management)
+
+### 📦 Gestion de stock — Application de gestion d’inventaire
+**C# · .NET 9 · ASP.NET Core MVC · Entity Framework Core · SQLite**
+
+Application de gestion de produits et de stocks avec opérations CRUD, recherche et indicateurs de stock.
+
+[Démo](https://gestionstock-p21n.onrender.com/) · [Code source](https://github.com/WissemAttouf/GestionStock)
+
+### 🏕️ Gestion de camping
+**PHP · Laravel 5.7 · MySQL · JavaScript · Bootstrap**
+
+Projet web de gestion de ressources liées à un camping, réalisé dans le cadre d’un stage chez Sprint Code.
+
+[Code source](https://github.com/WissemAttouf/Gestion-Camping-)
 
 ### 🌐 Neivos Groupe — Plateforme web
 **HTML · CSS · JavaScript · Node.js · Express.js · MySQL**
@@ -74,33 +95,12 @@ Application web consacrée à la lecture et à l’écoute du Coran, aux horaire
 
 [Démo](https://wakti-ashen.vercel.app/) · [Code source](https://github.com/WissemAttouf/Wakti)
 
-### 🏆 Sport Club Management — Gestion d’un club sportif
-**Java · Spring Boot · Thymeleaf · Spring Data JPA · Swagger · Docker**
-
-Application web de gestion des membres d’un club sportif, accompagnée d’une API REST documentée.
-
-[Application](https://sport-club-management-production-6f45.up.railway.app/) · [Code source](https://github.com/WissemAttouf/sport-club-management)
-
-### 🏕️ Gestion de camping
-**PHP · Laravel · MySQL · JavaScript · Bootstrap**
-
-Projet web de gestion de ressources liées à un camping, développé dans le cadre de mon parcours à Sprint Code.
-
-[Code source](https://github.com/WissemAttouf/Gestion-Camping-)
-
 ### ☕ Real Café
-**HTML · CSS · JavaScript · Vercel · Supabase · Playwright**
+**HTML · CSS · JavaScript · Supabase · Playwright**
 
 Site web de café avec menu interactif, parcours de réservation, boutique et fonctionnalités d’administration.
 
 [Démo](https://grain-et-cendre-dusky.vercel.app/) · [Code source](https://github.com/WissemAttouf/Real-Cafe)
-
-### 📦 Gestion de stock
-**C# · ASP.NET Core MVC · Entity Framework Core · SQLite**
-
-Application de gestion de produits et de stocks avec recherche, opérations CRUD et indicateurs récapitulatifs.
-
-[Code source](https://github.com/WissemAttouf/GestionStock)
 
 ### 🌦️ Météo intelligente avec Flutter
 **Flutter · Dart · API météo**
