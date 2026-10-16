@@ -24,7 +24,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     id: 'neivos-groupe', company: 'Neivos Groupe',
-    role: { en: 'Full Stack Developer', fr: 'Développeur Full Stack' }, start: '2025-06', end: '2026-06',
+    role: { en: 'Full Stack Developer', fr: 'Développeur Full Stack' }, type: { en: 'Permanent contract', fr: 'CDI' }, start: '2025-06', end: '2026-06',
     bullets: {
       en: ['Developed and maintained web and mobile applications.', 'Built mobile features with Flutter/Dart and backend services with Node.js, Express.js and MySQL.', 'Contributed to Neivos Facture, an invoice-digitization workflow using OCR and rule-based field extraction.'],
       fr: ['Développement et évolution d’applications web et mobiles.', 'Développement mobile avec Flutter/Dart et services backend avec Node.js, Express.js et MySQL.', 'Contribution à Neivos Facture, un parcours de numérisation de factures utilisant l’OCR et des règles d’extraction des champs.'],
