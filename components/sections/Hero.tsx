@@ -1,19 +1,19 @@
 import Image from 'next/image';
 import { ArrowRight, Download, MapPin } from 'lucide-react';
 import { site } from '@/data/site';
+import { cvHrefs } from '@/lib/cv';
 import type { Dictionary } from '@/data/i18n/types';
 import { ButtonLink } from '@/components/ui/ButtonLink';
 import { GithubIcon, LinkedinIcon } from '@/components/ui/Icons';
 
 interface HeroProps {
   dict: Dictionary;
-  cvHref: string | null;
 }
 
 const socialLink =
   'inline-flex h-11 w-11 items-center justify-center rounded-full border border-line text-muted transition-colors hover:border-brand-500/70 hover:text-ink';
 
-export function Hero({ dict, cvHref }: HeroProps) {
+export function Hero({ dict }: HeroProps) {
   const { hero } = dict;
   return (
     <section id="home" aria-labelledby="hero-title" className="hero-glow relative overflow-hidden pt-28 sm:pt-32 lg:pt-36">
@@ -40,12 +40,14 @@ export function Hero({ dict, cvHref }: HeroProps) {
               {hero.ctaProjects}
               <ArrowRight className="h-4 w-4" aria-hidden="true" />
             </ButtonLink>
-            {cvHref ? (
-              <ButtonLink href={cvHref} variant="secondary" download>
-                <Download className="h-4 w-4" aria-hidden="true" />
-                {hero.ctaCv}
-              </ButtonLink>
-            ) : null}
+            <ButtonLink href={cvHrefs.fr} variant="secondary" download>
+              <Download className="h-4 w-4" aria-hidden="true" />
+              {hero.cvFr}
+            </ButtonLink>
+            <ButtonLink href={cvHrefs.en} variant="secondary" download>
+              <Download className="h-4 w-4" aria-hidden="true" />
+              {hero.cvEn}
+            </ButtonLink>
             <ul aria-label={hero.socialLabel} className="ml-1 flex items-center gap-2.5">
               <li>
                 <a href={site.github} target="_blank" rel="noopener noreferrer" aria-label={hero.github} className={socialLink}>
