@@ -10,11 +10,11 @@ import type { Locale } from '@/lib/locale';
 import { cn } from '@/lib/cn';
 import { LanguageSwitcher } from './LanguageSwitcher';
 import { ThemeToggle } from './ThemeToggle';
+import { cvHrefs } from '@/lib/cv';
 
 interface NavbarProps {
   locale: Locale;
   labels: Dictionary['nav'];
-  cvHref: string | null;
 }
 
 type NavId = (typeof navSections)[number];
@@ -30,7 +30,7 @@ const OBSERVED: Record<string, string> = {
   contact: 'contact',
 };
 
-export function Navbar({ locale, labels, cvHref }: NavbarProps) {
+export function Navbar({ locale, labels }: NavbarProps) {
   const pathname = usePathname() ?? '';
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
   const [open, setOpen] = useState(false);
@@ -166,16 +166,14 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
         <div className="flex items-center gap-2.5">
           <LanguageSwitcher locale={locale} label={labels.languageLabel} switchTo={labels.switchTo} />
           <ThemeToggle label={labels.themeLabel} switchToLight={labels.switchToLight} switchToDark={labels.switchToDark} />
-          {cvHref ? (
-            <a
-              href={cvHref}
-              download
-              className="hidden h-9 items-center gap-2 rounded-full bg-brand-600 px-4 text-[13px] font-semibold text-white transition-colors hover:bg-brand-700 lg:inline-flex"
-            >
-              <Download className="h-4 w-4" aria-hidden="true" />
-              {labels.downloadCv}
+          <div className="hidden items-center gap-2 xl:flex">
+            <a href={cvHrefs.fr} download className="inline-flex h-9 items-center gap-1.5 rounded-full bg-brand-600 px-3 text-[13px] font-semibold text-white transition-colors hover:bg-brand-700">
+              <Download className="h-4 w-4" aria-hidden="true" />{labels.cvFr}
             </a>
-          ) : null}
+            <a href={cvHrefs.en} download className="inline-flex h-9 items-center gap-1.5 rounded-full border border-line px-3 text-[13px] font-semibold text-ink transition-colors hover:border-brand-500/70">
+              <Download className="h-4 w-4" aria-hidden="true" />{labels.cvEn}
+            </a>
+          </div>
           <button
             ref={toggleRef}
             type="button"
@@ -198,16 +196,12 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
                 setOpen(false),
               ),
             )}
-            {cvHref ? (
-              <a
-                href={cvHref}
-                download
-                className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-brand-600 px-5 text-sm font-semibold text-white hover:bg-brand-700"
-              >
-                <Download className="h-4 w-4" aria-hidden="true" />
-                {labels.downloadCv}
-              </a>
-            ) : null}
+            <a href={cvHrefs.fr} download className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-brand-600 px-5 text-sm font-semibold text-white hover:bg-brand-700">
+              <Download className="h-4 w-4" aria-hidden="true" />{labels.cvFr}
+            </a>
+            <a href={cvHrefs.en} download className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-line px-5 text-sm font-semibold text-ink hover:border-brand-500/70">
+              <Download className="h-4 w-4" aria-hidden="true" />{labels.cvEn}
+            </a>
           </div>
         </div>
       ) : null}
