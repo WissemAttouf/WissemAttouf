@@ -22,7 +22,7 @@ export const skillGroups: SkillGroup[] = [
     id: 'backend',
     icon: 'backend',
     title: { en: 'Backend', fr: 'Backend' },
-    items: [same('Node.js'), same('Express.js'), { en: 'REST APIs', fr: 'API REST' }],
+    items: [same('Node.js'), same('Express.js'), { en: 'REST APIs', fr: 'API REST' }, same('Java'), same('Spring Boot'), same('Spring Data JPA')],
   },
   {
     id: 'database',
@@ -34,13 +34,13 @@ export const skillGroups: SkillGroup[] = [
     id: 'quality',
     icon: 'quality',
     title: { en: 'Quality & development tools', fr: 'Qualité et outils de développement' },
-    items: [same('Swagger'), same('Docker'), same('CI/CD'), { en: 'Unit testing', fr: 'Tests unitaires' }],
+    items: [same('Swagger / OpenAPI'), same('Docker'), same('CI/CD'), { en: 'Unit testing', fr: 'Tests unitaires' }, same('OCR'), { en: 'Regular expressions', fr: 'Expressions régulières' }],
   },
   {
     id: 'web',
     icon: 'web',
     title: { en: 'Web', fr: 'Web' },
     // Taken from the Camping Management Platform stack.
-    items: [same('PHP'), same('Laravel'), same('JavaScript'), same('Bootstrap')],
+    items: [same('PHP'), same('Laravel'), same('HTML5'), same('CSS3'), same('JavaScript'), same('Bootstrap'), same('.NET')],
   },
 ];
