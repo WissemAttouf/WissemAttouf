@@ -9,11 +9,11 @@ import type { Dictionary } from '@/data/i18n/types';
 import type { Locale } from '@/lib/locale';
 import { cn } from '@/lib/cn';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { cvHrefs } from '@/lib/cv';
 
 interface NavbarProps {
   locale: Locale;
   labels: Dictionary['nav'];
-  cvHref: string | null;
 }
 
 type NavId = (typeof navSections)[number];
@@ -29,13 +29,14 @@ const OBSERVED: Record<string, string> = {
   contact: 'contact',
 };
 
-export function Navbar({ locale, labels, cvHref }: NavbarProps) {
+export function Navbar({ locale, labels }: NavbarProps) {
   const pathname = usePathname() ?? '';
   const isHome = pathname === `/${locale}` || pathname === `/${locale}/`;
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState<string | null>(null);
   const [theme, setTheme] = useState<'light' | 'dark'>('dark');
+  const [themeReady, setThemeReady] = useState(false);
   const toggleRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
@@ -45,13 +46,15 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
   useEffect(() => {
     const saved = window.localStorage.getItem('portfolio-theme');
     if (saved === 'light' || saved === 'dark') setTheme(saved);
+    setThemeReady(true);
   }, []);
 
   useEffect(() => {
+    if (!themeReady) return;
     document.documentElement.dataset.theme = theme;
     window.localStorage.setItem('portfolio-theme', theme);
     document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#F8FAFC' : '#0B1120');
-  }, [theme]);
+  }, [theme, themeReady]);
 
   const toggleTheme = () => setTheme((current) => (current === 'dark' ? 'light' : 'dark'));
 
@@ -188,16 +191,14 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
             {theme === 'dark' ? <Sun className="h-4 w-4" aria-hidden="true" /> : <Moon className="h-4 w-4" aria-hidden="true" />}
           </button>
           <LanguageSwitcher locale={locale} label={labels.languageLabel} switchTo={labels.switchTo} />
-          {cvHref ? (
-            <a
-              href={cvHref}
-              download
-              className="hidden h-9 items-center gap-2 rounded-full bg-brand-600 px-4 text-[13px] font-semibold text-white transition-colors hover:bg-brand-700 lg:inline-flex"
-            >
-              <Download className="h-4 w-4" aria-hidden="true" />
-              {labels.downloadCv}
+          <div className="hidden items-center gap-2 xl:flex">
+            <a href={cvHrefs.fr} className="inline-flex h-9 items-center gap-1.5 rounded-full bg-brand-600 px-3 text-[13px] font-semibold text-white transition-colors hover:bg-brand-700" aria-label="Télécharger le CV en français">
+              <Download className="h-4 w-4" aria-hidden="true" />CV (FR)
             </a>
-          ) : null}
+            <a href={cvHrefs.en} className="inline-flex h-9 items-center gap-1.5 rounded-full border border-line px-3 text-[13px] font-semibold text-ink transition-colors hover:border-brand-500/70" aria-label="Download English CV">
+              <Download className="h-4 w-4" aria-hidden="true" />CV (EN)
+            </a>
+          </div>
           <button
             ref={toggleRef}
             type="button"
@@ -220,16 +221,12 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
                 setOpen(false),
               ),
             )}
-            {cvHref ? (
-              <a
-                href={cvHref}
-                download
-                className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-brand-600 px-5 text-sm font-semibold text-white hover:bg-brand-700"
-              >
-                <Download className="h-4 w-4" aria-hidden="true" />
-                {labels.downloadCv}
-              </a>
-            ) : null}
+            <a href={cvHrefs.fr} className="mt-2 inline-flex h-11 items-center justify-center gap-2 rounded-full bg-brand-600 px-5 text-sm font-semibold text-white hover:bg-brand-700">
+              <Download className="h-4 w-4" aria-hidden="true" />CV (FR)
+            </a>
+            <a href={cvHrefs.en} className="inline-flex h-11 items-center justify-center gap-2 rounded-full border border-line px-5 text-sm font-semibold text-ink hover:border-brand-500/70">
+              <Download className="h-4 w-4" aria-hidden="true" />CV (EN)
+            </a>
           </div>
         </div>
       ) : null}
