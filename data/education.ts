@@ -15,14 +15,14 @@ export const education: EducationItem[] = [
     degree: { en: 'National Engineering Degree in Computer Science', fr: `Diplôme National d'Ingénieur en Informatique` },
     school: { en: 'iTeam University', fr: 'iTeam University' },
     field: { en: 'Software Engineering and Information Systems', fr: `Génie Logiciel et Systèmes d'Information` },
-    period: { en: 'Diploma obtained in July 2026', fr: 'Diplôme obtenu en juillet 2026' },
+    period: { en: 'September 2023 – July 2026', fr: 'Septembre 2023 – juillet 2026' },
   },
   {
     id: 'isi-kef',
     degree: { en: `National Bachelor's Degree in Computer Science`, fr: `Licence Nationale en Sciences Informatiques` },
     school: { en: 'Higher Institute of Computer Science of Kef (ISI Kef)', fr: `Institut Supérieur d'Informatique du Kef (ISI Kef)` },
     field: { en: 'Software Engineering and Information Systems', fr: `Génie Logiciel et Systèmes d'Information` },
-    period: { en: '2019 – 2022', fr: '2019 – 2022' },
+    period: { en: 'September 2019 – June 2022', fr: 'Septembre 2019 – juin 2022' },
     note: { en: 'Graduated with honours (Très Bien).', fr: 'Diplômé avec la mention Très Bien.' },
   },
 ];
