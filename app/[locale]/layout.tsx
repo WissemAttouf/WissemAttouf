@@ -7,7 +7,6 @@ import { Navbar } from '@/components/layout/Navbar';
 import { SkipLink } from '@/components/layout/SkipLink';
 import { MotionProvider } from '@/components/ui/MotionProvider';
 import { site } from '@/data/site';
-import { getCvHref } from '@/lib/cv';
 import { getDictionary } from '@/lib/i18n';
 import { isLocale, locales } from '@/lib/locale';
 import { getSiteUrl } from '@/lib/metadata';
@@ -55,14 +54,13 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = getDictionary(locale);
-  const cvHref = getCvHref(locale);
 
   return (
     <html lang={locale} className={`${inter.variable} ${display.variable}`}>
       <body className="min-h-screen">
         <MotionProvider>
           <SkipLink label={dict.nav.skipToContent} />
-          <Navbar locale={locale} labels={dict.nav} cvHref={cvHref} />
+          <Navbar locale={locale} labels={dict.nav} />
           <main id="main">{children}</main>
           <Footer locale={locale} dict={dict} />
         </MotionProvider>
