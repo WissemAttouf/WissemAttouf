@@ -71,16 +71,16 @@
 
 
 /* Explicit light theme, controlled by the portfolio theme switcher. */
+html[data-theme='light'] { color-scheme: light; }
 html[data-theme='light'] body { background-color: #f8fafc !important; color: #0f172a !important; }
-html[data-theme='light'] .bg-navy-950,
-html[data-theme='light'] .bg-navy-950\\/60,
-html[data-theme='light'] .bg-navy-950\\/90 { background-color: #f8fafc !important; }
-html[data-theme='light'] .bg-navy-900,
-html[data-theme='light'] .bg-navy-900\\/70,
-html[data-theme='light'] .bg-navy-800 { background-color: #ffffff !important; }
+html[data-theme='light'] [class*="bg-navy-950"] { background-color: #f8fafc !important; }
+html[data-theme='light'] [class*="bg-navy-900"],
+html[data-theme='light'] [class*="bg-navy-800"] { background-color: #ffffff !important; }
 html[data-theme='light'] .text-ink { color: #0f172a !important; }
 html[data-theme='light'] .text-muted,
-html[data-theme='light'] .text-slate-300 { color: #475569 !important; }
+html[data-theme='light'] .text-slate-200,
+html[data-theme='light'] .text-slate-300,
+html[data-theme='light'] .text-slate-400 { color: #475569 !important; }
 html[data-theme='light'] .border-line { border-color: #e2e8f0 !important; }
 html[data-theme='light'] .card,
 html[data-theme='light'] .chip { border-color: #e2e8f0 !important; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06); }
