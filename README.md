@@ -117,7 +117,7 @@ Application mobile et web de consultation des conditions météorologiques et de
 
 ## 💼 Expérience professionnelle
 
-- **HexaByte — Responsable technico-commercial** · juin 2026 – septembre 2026
+- **HexaByte — Responsable technico-commercial (stage)** · juin 2026 – septembre 2026
 - **Neivos Groupe — Développeur Full Stack** · juin 2025 – juin 2026
 - **Enda Tamweel — Agent de crédit** · avril 2023 – novembre 2024
 - **Sprint Code — Stage de développement web** · janvier 2022 – juin 2022
