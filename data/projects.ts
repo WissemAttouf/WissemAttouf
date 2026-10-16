@@ -51,7 +51,7 @@ export const projects: Project[] = [
     tech: ['Flutter', 'Dart'],
     summary: {
       en: 'A mobile invoicing application designed to scan invoices, extract invoice fields using OCR and rule-based parsing, and let users review extracted data interactively. The application also supports PDF and Excel reporting.',
-      fr: `Une application mobile de facturation conçue pour scanner des factures, en extraire les informations financières grâce à l'IA et permettre à l'utilisateur de vérifier les données extraites de façon interactive. Elle prend également en charge les rapports PDF et Excel.`,
+      fr: `Une application mobile de facturation conçue pour scanner des factures, en extraire les informations financières grâce à l'OCR et à des règles d'extraction et permettre à l'utilisateur de vérifier les données extraites de façon interactive. Elle prend également en charge les rapports PDF et Excel.`,
     },
     overview: {
       en: [
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     },
     problem: {
       en: 'Financial data on invoices usually has to be typed in by hand. Neivos Facture aims to reduce that effort with OCR-based extraction and rule-based parsing, while keeping the user in control through an interactive review step.',
-      fr: `Les données financières des factures doivent généralement être saisies à la main. Neivos Facture vise à réduire cet effort grâce à une extraction assistée par l'IA, tout en laissant l'utilisateur garder la main grâce à une étape de vérification interactive.`,
+      fr: `Les données financières des factures doivent généralement être saisies à la main. Neivos Facture vise à réduire cet effort grâce à l'OCR et à des règles d'extraction, tout en laissant l'utilisateur garder la main grâce à une étape de vérification interactive.`,
     },
     objectives: {
       en: [
@@ -83,7 +83,7 @@ export const projects: Project[] = [
       { status: 'implemented', label: { en: 'Invoice scanning', fr: 'Scan de factures' } },
       {
         status: 'implemented',
-        label: { en: 'OCR and rule-based financial data extraction', fr: `Extraction des données financières par l'IA` },
+        label: { en: 'OCR and rule-based financial data extraction', fr: `Extraction des données financières par OCR et règles` },
       },
       {
         status: 'implemented',
