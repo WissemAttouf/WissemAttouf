@@ -22,6 +22,8 @@ export interface Dictionary {
     openMenu: string;
     closeMenu: string;
     downloadCv: string;
+    cvFr: string;
+    cvEn: string;
     skipToContent: string;
     languageLabel: string;
     themeLabel: string;
@@ -37,6 +39,8 @@ export interface Dictionary {
     location: string;
     ctaProjects: string;
     ctaCv: string;
+    cvFr: string;
+    cvEn: string;
     github: string;
     linkedin: string;
     socialLabel: string;
