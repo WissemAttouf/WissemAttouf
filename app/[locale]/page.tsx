@@ -8,7 +8,6 @@ import { Hero } from '@/components/sections/Hero';
 import { Projects } from '@/components/sections/Projects';
 import { Skills } from '@/components/sections/Skills';
 import { site } from '@/data/site';
-import { getCvHref } from '@/lib/cv';
 import { getDictionary } from '@/lib/i18n';
 import { isLocale } from '@/lib/locale';
 import { buildMetadata, getSiteUrl } from '@/lib/metadata';
@@ -35,7 +34,6 @@ export default async function HomePage({ params }: PageProps) {
   const { locale } = await params;
   if (!isLocale(locale)) notFound();
   const dict = getDictionary(locale);
-  const cvHref = getCvHref(locale);
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -56,7 +54,7 @@ export default async function HomePage({ params }: PageProps) {
         // "<" is escaped so the JSON can never close the script tag.
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
       />
-      <Hero dict={dict} cvHref={cvHref} />
+      <Hero dict={dict} />
       <About dict={dict} />
       <Projects locale={locale} dict={dict} />
       <Experience locale={locale} dict={dict} />
