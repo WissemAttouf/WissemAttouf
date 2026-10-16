@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter, Plus_Jakarta_Sans } from 'next/font/google';
 import { notFound } from 'next/navigation';
+import { MessageCircle } from 'lucide-react';
 import type { ReactNode } from 'react';
 import { Footer } from '@/components/layout/Footer';
 import { Navbar } from '@/components/layout/Navbar';
@@ -65,6 +66,16 @@ export default async function LocaleLayout({ children, params }: LayoutProps) {
           <Navbar locale={locale} labels={dict.nav} cvHref={cvHref} />
           <main id="main">{children}</main>
           <Footer locale={locale} dict={dict} />
+          <a
+            href="https://wa.me/21624956675"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Contacter Wissem Attouf sur WhatsApp au +216 24 956 675"
+            title="WhatsApp : +216 24 956 675"
+            className="fixed bottom-5 right-5 z-40 inline-flex h-14 w-14 items-center justify-center rounded-full bg-emerald-500 text-white shadow-lg transition-transform hover:scale-105 hover:bg-emerald-600 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-emerald-500"
+          >
+            <MessageCircle className="h-7 w-7" aria-hidden="true" />
+          </a>
         </MotionProvider>
       </body>
     </html>
