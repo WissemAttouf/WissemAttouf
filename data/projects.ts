@@ -170,10 +170,10 @@ export const projects: Project[] = [
 
   {
     slug: 'sport-club-management', category: 'web', featured: true, title: 'Sport Club Management',
-    tech: ['Java 17', 'Spring Boot', 'Spring Data JPA', 'Thymeleaf', 'Swagger/OpenAPI', 'Docker'],
-    summary: { en: 'A sports-club management web application built with Java and Spring Boot, with web interfaces, persistence, documented APIs and automated tests.', fr: 'Une application web de gestion d’un club sportif développée avec Java et Spring Boot, avec interfaces web, persistance, API documentée et tests automatisés.' },
+    tech: ['Java 17', 'Spring Boot', 'Spring Data JPA', 'Thymeleaf', 'H2', 'Swagger/OpenAPI', 'Docker'],
+    summary: { en: 'A sports-club management web application developed with Java and Spring Boot as a project completed at Neivos Groupe, with web interfaces, persistence, API documentation and tests.', fr: 'Une application web de gestion d’un club sportif développée avec Java et Spring Boot dans le cadre d’un projet réalisé au sein de Neivos Groupe, avec interfaces web, persistance, documentation API et tests.' },
     demoUrl: 'https://sport-club-management-production-6f45.up.railway.app/', githubUrl: 'https://github.com/WissemAttouf/sport-club-management',
-    overview: { en: ['A Java/Spring Boot project structured around management workflows, persistence, API documentation and automated tests.'], fr: ['Un projet Java/Spring Boot structuré autour des parcours de gestion, de la persistance, de la documentation d’API et des tests automatisés.'] },
+    overview: { en: ['A Java/Spring Boot project completed at Neivos Groupe, structured around club-member management, persistence, API documentation and tests.'], fr: ['Un projet Java/Spring Boot réalisé au sein de Neivos Groupe, structuré autour de la gestion des membres du club, de la persistance, de la documentation API et des tests.'] },
     objectives: { en: ['Organize club-management workflows.', 'Persist application data.', 'Document API endpoints and test key behaviour.'], fr: ['Organiser les opérations de gestion du club.', 'Persister les données.', 'Documenter les endpoints et tester les comportements essentiels.'] },
     features: [{ status: 'implemented', label: { en: 'Web management workflows', fr: 'Parcours de gestion web' } }, { status: 'implemented', label: { en: 'Spring Data JPA persistence', fr: 'Persistance avec Spring Data JPA' } }, { status: 'implemented', label: { en: 'Swagger/OpenAPI documentation and tests', fr: 'Documentation Swagger/OpenAPI et tests' } }],
   },
