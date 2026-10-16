@@ -6,7 +6,7 @@ export const en: Dictionary = {
   },
   meta: {
     siteName: 'Wissem Attouf',
-    title: 'Wissem Attouf — Software Engineer & Full Stack Developer',
+    title: 'Wissem Attouf — Software Engineer | Full-Stack Developer',
     description:
       'Portfolio of Wissem Attouf, a software engineer and full stack developer based in Tunis, Tunisia, specializing in Flutter mobile applications, Node.js backends and REST APIs.',
     caseStudy: 'Case study',
@@ -31,7 +31,7 @@ export const en: Dictionary = {
     switchTo: { en: 'Switch to English', fr: 'Switch to French' },
   },
   hero: {
-    role: 'Software Engineer | Full Stack Developer',
+    role: 'Software Engineer | Full-Stack Developer',
     headingLead: 'Building Reliable Digital Products,',
     headingAccent: 'from Mobile to Backend.',
     text: `I'm a Software Engineer and Full Stack Developer specializing in Flutter mobile applications, Node.js backend systems, and REST APIs. I enjoy turning complex requirements into practical, maintainable software.`,
