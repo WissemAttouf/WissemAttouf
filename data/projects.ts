@@ -48,80 +48,63 @@ export const projects: Project[] = [
     category: 'mobile',
     featured: true,
     title: 'Neivos Facture',
-    tech: ['Flutter', 'Dart'],
+    tech: ['Flutter', 'Dart', 'Node.js', 'Express.js', 'MySQL', 'OCR', 'Regular Expressions'],
     summary: {
-      en: 'A mobile invoicing application designed to scan invoices, extract invoice fields using OCR and rule-based parsing, and let users review extracted data interactively. The application also supports PDF and Excel reporting.',
-      fr: `Une application mobile de facturation conçue pour scanner des factures, en extraire les informations financières grâce à l'OCR et à des règles d'extraction et permettre à l'utilisateur de vérifier les données extraites de façon interactive. Elle prend également en charge les rapports PDF et Excel.`,
+      en: 'An invoice-digitization project that uses OCR and rule-based extraction to identify invoice numbers, dates, suppliers, amounts excluding and including tax, and VAT.',
+      fr: 'Un projet de numérisation de factures utilisant l’OCR et des règles d’extraction pour identifier les numéros de facture, les dates, les fournisseurs, les montants HT et TTC ainsi que la TVA.',
     },
     overview: {
       en: [
-        'Neivos Facture is a mobile application built with Flutter and Dart. It takes an invoice from a photo to structured financial data and, from there, to PDF and Excel reports.',
+        'Neivos Facture is a mobile application developed with Flutter and Dart as an engineering final-year project at Neivos Groupe. It combines OCR with regular expressions and processing rules to extract structured invoice data. The backend uses Node.js and Express.js, with MySQL for application data.',
       ],
       fr: [
-        `Neivos Facture est une application mobile développée avec Flutter et Dart. Elle transforme une facture photographiée en données financières structurées, puis en rapports PDF et Excel.`,
+        'Neivos Facture est une application mobile développée avec Flutter et Dart dans le cadre du projet de fin d’études d’ingénieur réalisé chez Neivos Groupe. Elle combine l’OCR, les expressions régulières et des règles de traitement pour extraire des données structurées des factures. Le backend repose sur Node.js et Express.js, avec MySQL pour les données applicatives.',
       ],
     },
     problem: {
-      en: 'Financial data on invoices usually has to be typed in by hand. Neivos Facture aims to reduce that effort with OCR-based extraction and rule-based parsing, while keeping the user in control through an interactive review step.',
-      fr: `Les données financières des factures doivent généralement être saisies à la main. Neivos Facture vise à réduire cet effort grâce à l'OCR et à des règles d'extraction, tout en laissant l'utilisateur garder la main grâce à une étape de vérification interactive.`,
+      en: 'Invoice processing can require repetitive manual entry. This project explores how OCR and rule-based extraction can identify key invoice fields and structure them for further processing.',
+      fr: 'Le traitement des factures peut nécessiter une saisie manuelle répétitive. Ce projet explore l’utilisation de l’OCR et de règles d’extraction pour identifier les champs clés d’une facture et structurer les données pour leur traitement.',
     },
     objectives: {
       en: [
-        'Scan invoices with the mobile device.',
-        'Extract key invoice fields using OCR and rule-based parsing.',
-        'Let users review and validate the extracted data interactively.',
-        'Produce detailed PDF and Excel reports.',
+        'Digitize invoices through a mobile application.',
+        'Recognize invoice text with an OCR service.',
+        'Extract invoice numbers, dates, suppliers, amounts excluding and including tax, and VAT using regular expressions and processing rules.',
+        'Connect the mobile application to a Node.js/Express.js backend and MySQL data storage.',
       ],
       fr: [
-        `Scanner des factures depuis l'appareil mobile.`,
-        `En extraire les champs clés grâce à l'OCR et à des règles d'extraction.`,
-        `Permettre à l'utilisateur de vérifier et de valider les données extraites de façon interactive.`,
-        `Produire des rapports détaillés aux formats PDF et Excel.`,
+        'Numériser des factures depuis une application mobile.',
+        'Reconnaître le texte des documents à l’aide d’un service OCR.',
+        'Extraire les numéros de facture, les dates, les fournisseurs, les montants HT et TTC ainsi que la TVA grâce aux expressions régulières et aux règles de traitement.',
+        'Connecter l’application mobile à un backend Node.js/Express.js et à une base de données MySQL.',
       ],
     },
     features: [
-      { status: 'implemented', label: { en: 'Invoice scanning', fr: 'Scan de factures' } },
-      {
-        status: 'implemented',
-        label: { en: 'OCR and rule-based financial data extraction', fr: `Extraction des données financières par OCR et règles` },
-      },
-      {
-        status: 'implemented',
-        label: {
-          en: 'Interactive review and validation of extracted data',
-          fr: 'Vérification et validation interactives des données extraites',
-        },
-      },
-      { status: 'implemented', label: { en: 'PDF report generation', fr: 'Génération de rapports PDF' } },
-      { status: 'implemented', label: { en: 'Excel report generation', fr: 'Génération de rapports Excel' } },
+      { status: 'implemented', label: { en: 'Invoice digitization with a mobile application', fr: 'Numérisation des factures avec une application mobile' } },
+      { status: 'implemented', label: { en: 'Text recognition through OCR', fr: 'Reconnaissance du texte par OCR' } },
+      { status: 'implemented', label: { en: 'Rule-based extraction of invoice fields', fr: 'Extraction des champs de facture par règles de traitement' } },
+      { status: 'implemented', label: { en: 'Backend services and MySQL data storage', fr: 'Services backend et stockage des données sous MySQL' } },
     ],
     workflow: [
       {
-        title: { en: 'Scan', fr: 'Scanner' },
+        title: { en: 'Digitize', fr: 'Numériser' },
         text: {
-          en: 'The user captures an invoice with the mobile application.',
-          fr: `L'utilisateur capture une facture avec l'application mobile.`,
+          en: 'The mobile application captures an invoice for processing.',
+          fr: 'L’application mobile permet de capturer une facture pour son traitement.',
+        },
+      },
+      {
+        title: { en: 'Recognize', fr: 'Reconnaître' },
+        text: {
+          en: 'An OCR service recognizes the text contained in the document.',
+          fr: 'Un service OCR reconnaît le texte présent dans le document.',
         },
       },
       {
         title: { en: 'Extract', fr: 'Extraire' },
         text: {
-          en: 'OCR and extraction rules identify key invoice fields for user review.',
-          fr: `L'OCR et des règles d'extraction identifient les champs clés de la facture pour vérification.`,
-        },
-      },
-      {
-        title: { en: 'Review', fr: 'Vérifier' },
-        text: {
-          en: 'The user checks the extracted data interactively and validates it.',
-          fr: `L'utilisateur contrôle les données extraites de façon interactive et les valide.`,
-        },
-      },
-      {
-        title: { en: 'Report', fr: 'Exporter' },
-        text: {
-          en: 'The data is turned into detailed PDF and Excel reports.',
-          fr: 'Les données sont transformées en rapports détaillés PDF et Excel.',
+          en: 'Regular expressions and processing rules identify invoice numbers, dates, suppliers, amounts excluding and including tax, and VAT.',
+          fr: 'Les expressions régulières et les règles de traitement identifient les numéros de facture, les dates, les fournisseurs, les montants HT et TTC ainsi que la TVA.',
         },
       },
     ],
