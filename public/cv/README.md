@@ -1,10 +1,6 @@
-# CV files
+# CV téléchargeables
 
-Place your CV PDFs here with **exactly** these names:
+- `Wissem-Attouf-CV-FR.html` — version française
+- `Wissem-Attouf-CV-EN.html` — version anglaise
 
-- `Wissem-Attouf-CV-EN.pdf`
-- `Wissem-Attouf-CV-FR.pdf`
-
-The "Download CV" buttons (navbar, mobile menu and hero) appear automatically as soon as
-at least one of these files exists. If only one language is available it is used for both.
-Nothing links to a missing file.
+Ces documents HTML autonomes sont adaptés à l’impression A4. Ouvrez un document puis choisissez **Imprimer → Enregistrer au format PDF** pour obtenir un PDF. Si les PDF portant les noms attendus sont ajoutés ultérieurement, le site les privilégiera automatiquement.

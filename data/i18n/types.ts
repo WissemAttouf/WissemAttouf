@@ -24,6 +24,9 @@ export interface Dictionary {
     downloadCv: string;
     skipToContent: string;
     languageLabel: string;
+    themeLabel: string;
+    switchToLight: string;
+    switchToDark: string;
     switchTo: Record<Locale, string>;
   };
   hero: {

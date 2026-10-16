@@ -6,7 +6,7 @@ export const fr: Dictionary = {
   },
   meta: {
     siteName: 'Wissem Attouf',
-    title: 'Wissem Attouf — Ingénieur logiciel & Développeur Full Stack',
+    title: 'Wissem Attouf — Ingénieur Informatique | Développeur Full Stack',
     description:
       `Portfolio de Wissem Attouf, ingénieur logiciel et développeur full stack basé à Tunis, en Tunisie, spécialisé dans les applications mobiles Flutter, les backends Node.js et les API REST.`,
     caseStudy: 'Étude de cas',
@@ -25,10 +25,13 @@ export const fr: Dictionary = {
     downloadCv: 'Télécharger le CV',
     skipToContent: 'Aller au contenu principal',
     languageLabel: 'Langue',
+    themeLabel: 'Thème',
+    switchToLight: 'Activer le thème clair',
+    switchToDark: 'Activer le thème sombre',
     switchTo: { en: 'Passer en anglais', fr: 'Passer en français' },
   },
   hero: {
-    role: 'Ingénieur logiciel | Développeur Full Stack',
+    role: 'Ingénieur Informatique | Développeur Full Stack',
     headingLead: 'Des produits numériques fiables,',
     headingAccent: 'du mobile au backend.',
     text: `Je suis ingénieur logiciel et développeur Full Stack, spécialisé dans les applications mobiles Flutter, les systèmes backend Node.js et les API REST. J'aime transformer des besoins complexes en logiciels pratiques et maintenables.`,
@@ -45,7 +48,7 @@ export const fr: Dictionary = {
     title: 'Un ingénieur attentif à la qualité',
     paragraphs: [
       `Ingénieur logiciel basé à Tunis, en Tunisie, je suis titulaire du Diplôme National d'Ingénieur en Informatique (Génie Logiciel et Systèmes d'Information) d'iTeam University. Je développe des applications web et mobiles, des besoins jusqu'à la livraison, en portant une attention particulière à l'architecture, à la maintenabilité et à l'expérience utilisateur.`,
-      `Mon travail couvre les applications mobiles multiplateformes avec Flutter et Dart, les services backend avec Node.js et Express.js, la conception et l'intégration d'API REST, ainsi que la modélisation de données relationnelles avec MySQL. J'intègre également des modèles et des API d'intelligence artificielle dans les applications.`,
+      `Mon travail couvre les applications mobiles multiplateformes avec Flutter et Dart, les services backend avec Node.js et Express.js, la conception et l'intégration d'API REST, ainsi que la modélisation de données relationnelles avec MySQL. J’ai notamment travaillé sur la numérisation de factures avec OCR et des règles d’extraction de données.`,
     ],
     focusLabel: `Domaines d'expertise`,
     focus: [

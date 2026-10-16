@@ -9,6 +9,7 @@ import type { Dictionary } from '@/data/i18n/types';
 import type { Locale } from '@/lib/locale';
 import { cn } from '@/lib/cn';
 import { LanguageSwitcher } from './LanguageSwitcher';
+import { ThemeToggle } from './ThemeToggle';
 
 interface NavbarProps {
   locale: Locale;
@@ -164,6 +165,7 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
 
         <div className="flex items-center gap-2.5">
           <LanguageSwitcher locale={locale} label={labels.languageLabel} switchTo={labels.switchTo} />
+          <ThemeToggle label={labels.themeLabel} switchToLight={labels.switchToLight} switchToDark={labels.switchToDark} />
           {cvHref ? (
             <a
               href={cvHref}

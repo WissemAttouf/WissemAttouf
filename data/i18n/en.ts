@@ -6,7 +6,7 @@ export const en: Dictionary = {
   },
   meta: {
     siteName: 'Wissem Attouf',
-    title: 'Wissem Attouf — Software Engineer & Full Stack Developer',
+    title: 'Wissem Attouf — Software Engineer | Full-Stack Developer',
     description:
       'Portfolio of Wissem Attouf, a software engineer and full stack developer based in Tunis, Tunisia, specializing in Flutter mobile applications, Node.js backends and REST APIs.',
     caseStudy: 'Case study',
@@ -25,10 +25,13 @@ export const en: Dictionary = {
     downloadCv: 'Download CV',
     skipToContent: 'Skip to main content',
     languageLabel: 'Language',
+    themeLabel: 'Theme',
+    switchToLight: 'Switch to light theme',
+    switchToDark: 'Switch to dark theme',
     switchTo: { en: 'Switch to English', fr: 'Switch to French' },
   },
   hero: {
-    role: 'Software Engineer | Full Stack Developer',
+    role: 'Software Engineer | Full-Stack Developer',
     headingLead: 'Building Reliable Digital Products,',
     headingAccent: 'from Mobile to Backend.',
     text: `I'm a Software Engineer and Full Stack Developer specializing in Flutter mobile applications, Node.js backend systems, and REST APIs. I enjoy turning complex requirements into practical, maintainable software.`,
@@ -45,7 +48,7 @@ export const en: Dictionary = {
     title: 'An engineer who cares about quality',
     paragraphs: [
       `I'm a Software Engineer based in Tunis, Tunisia, with a National Engineering Degree in Computer Science (Software Engineering and Information Systems) from iTeam University. I build web and mobile applications from requirements to delivery, paying close attention to architecture, maintainability and user experience.`,
-      `My work covers cross-platform mobile apps with Flutter and Dart, backend services with Node.js and Express.js, REST API design and integration, and relational data modelling with MySQL. I also integrate AI models and APIs into applications.`,
+      `My work covers cross-platform mobile apps with Flutter and Dart, backend services with Node.js and Express.js, REST API design and integration, and relational data modelling with MySQL. I have also worked on invoice digitization using OCR and rule-based data extraction.`,
     ],
     focusLabel: 'Focus areas',
     focus: [

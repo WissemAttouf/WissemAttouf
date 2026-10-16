@@ -51,12 +51,18 @@ Je suis **ingénieur en informatique et développeur Full Stack**, diplômé d�
   <img src="https://img.shields.io/badge/API-REST%20%7C%20Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black" alt="API REST et Swagger" />
 </p>
 
+## 🌐 Portfolio web
+
+Le portfolio est disponible en français et en anglais, avec un thème clair/sombre, des fiches projets bilingues et des CV téléchargeables.
+
+[Ouvrir le portfolio](https://wissem-portfolio.vercel.app/)
+
 ## 🚀 Projets
 
 ### 🧾 Neivos Facture — Application mobile de traitement de factures
 **Flutter · Dart · Node.js · Express.js · MySQL · OCR**
 
-Projet de fin d’études réalisé chez Neivos Groupe : application mobile destinée à faciliter la numérisation et le traitement de factures, avec un workflow OCR et l’extraction des informations des documents, reliée à une API REST.
+Projet de fin d’études réalisé chez Neivos Groupe : application mobile destinée à faciliter la numérisation et le traitement de factures, avec OCR et des règles d’extraction des champs, reliée à une API REST.
 
 [Consulter le dépôt](https://github.com/WissemAttouf/Neivos-Facture)
 
@@ -111,7 +117,7 @@ Application mobile et web de consultation des conditions météorologiques et de
 
 ## 💼 Expérience professionnelle
 
-- **HexaByte — Responsable technico-commercial** · juin 2026 – septembre 2026
+- **HexaByte — Responsable technico-commercial (stage)** · juin 2026 – septembre 2026
 - **Neivos Groupe — Développeur Full Stack** · juin 2025 – juin 2026
 - **Enda Tamweel — Agent de crédit** · avril 2023 – novembre 2024
 - **Sprint Code — Stage de développement web** · janvier 2022 – juin 2022
