@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useEffect, useRef, useState } from 'react';
-import { Download, Menu, X } from 'lucide-react';
+import { Download, Menu, Moon, Sun, X } from 'lucide-react';
 import { navSections } from '@/data/site';
 import type { Dictionary } from '@/data/i18n/types';
 import type { Locale } from '@/lib/locale';
@@ -35,10 +35,25 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [active, setActive] = useState<string | null>(null);
+  const [theme, setTheme] = useState<'light' | 'dark'>('dark');
   const toggleRef = useRef<HTMLButtonElement>(null);
   const panelRef = useRef<HTMLDivElement>(null);
 
   const hrefFor = (id: string) => (isHome ? `#${id}` : `/${locale}#${id}`);
+
+  // Restore the visitor's independent theme preference and apply it globally.
+  useEffect(() => {
+    const saved = window.localStorage.getItem('portfolio-theme');
+    if (saved === 'light' || saved === 'dark') setTheme(saved);
+  }, []);
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    window.localStorage.setItem('portfolio-theme', theme);
+    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', theme === 'light' ? '#F8FAFC' : '#0B1120');
+  }, [theme]);
+
+  const toggleTheme = () => setTheme((current) => (current === 'dark' ? 'light' : 'dark'));
 
   // Header background once the page is scrolled.
   useEffect(() => {
@@ -163,6 +178,15 @@ export function Navbar({ locale, labels, cvHref }: NavbarProps) {
         <div className="hidden items-center gap-1 lg:flex">{navSections.map((id) => renderLink(id, linkClass(id)))}</div>
 
         <div className="flex items-center gap-2.5">
+          <button
+            type="button"
+            onClick={toggleTheme}
+            aria-label={theme === 'dark' ? 'Activer le mode clair' : 'Activer le mode sombre'}
+            title={theme === 'dark' ? 'Mode clair' : 'Mode sombre'}
+            className="inline-flex h-10 w-10 items-center justify-center rounded-full border border-line text-ink transition-colors hover:border-brand-500/70"
+          >
+            {theme === 'dark' ? <Sun className="h-4 w-4" aria-hidden="true" /> : <Moon className="h-4 w-4" aria-hidden="true" />}
+          </button>
           <LanguageSwitcher locale={locale} label={labels.languageLabel} switchTo={labels.switchTo} />
           {cvHref ? (
             <a
