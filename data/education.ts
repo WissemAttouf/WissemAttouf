@@ -36,7 +36,9 @@ export interface CertificationItem {
 
 /** No IDs or verification URLs are shown: add them only if they exist. */
 export const certifications: CertificationItem[] = [
+  { id: 'latex', title: { en: 'LaTeX', fr: 'LaTeX' }, issuer: 'iTeam University', year: '2026' },
   { id: 'flutter-dart', title: { en: 'Flutter and Dart', fr: 'Flutter et Dart' }, issuer: 'iTeam University', year: '2024' },
   { id: 'laravel', title: { en: 'Laravel', fr: 'Laravel' }, issuer: 'ISI Kef', year: '2021' },
-  { id: 'photoshop', title: { en: 'Photoshop', fr: 'Photoshop' }, issuer: 'ISI Kef', year: '2021' },
+  { id: 'javascript', title: { en: 'JavaScript', fr: 'JavaScript' }, issuer: 'ISI Kef', year: '2021' },
+  { id: 'photoshop', title: { en: 'Photoshop', fr: 'Photoshop' }, issuer: 'ISI Kef', year: '2020' },
 ];
