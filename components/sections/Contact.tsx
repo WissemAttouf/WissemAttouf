@@ -1,4 +1,4 @@
-import { ArrowUpRight, Mail, MapPin } from 'lucide-react';
+import { ArrowUpRight, Mail, MapPin, MessageCircle } from 'lucide-react';
 import { site } from '@/data/site';
 import type { Dictionary } from '@/data/i18n/types';
 import { ButtonLink } from '@/components/ui/ButtonLink';
@@ -44,6 +44,26 @@ export function Contact({ dict }: { dict: Dictionary }) {
                   copiedLabel={contact.copied}
                   failedLabel={contact.copyFailed}
                 />
+              </Reveal>
+            </li>
+            <li>
+              <Reveal>
+                <a
+                  href="https://wa.me/21624956675"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={rowClass}
+                  aria-label="Contacter Wissem Attouf sur WhatsApp au +216 24 956 675"
+                >
+                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl border border-emerald-500/30 bg-emerald-500/10 text-emerald-600">
+                    <MessageCircle className="h-5 w-5" aria-hidden="true" />
+                  </span>
+                  <span className="min-w-0 flex-1">
+                    <span className="block text-xs font-semibold uppercase tracking-wider text-muted">WhatsApp</span>
+                    <span className="block truncate text-sm font-semibold text-ink sm:text-base">+216 24 956 675</span>
+                  </span>
+                  <ArrowUpRight className="h-4 w-4 text-muted" aria-hidden="true" />
+                </a>
               </Reveal>
             </li>
             <li>
