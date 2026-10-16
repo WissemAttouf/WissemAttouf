@@ -6,7 +6,7 @@ export const fr: Dictionary = {
   },
   meta: {
     siteName: 'Wissem Attouf',
-    title: 'Wissem Attouf — Ingénieur logiciel & Développeur Full Stack',
+    title: 'Wissem Attouf — Ingénieur Informatique | Développeur Full Stack',
     description:
       `Portfolio de Wissem Attouf, ingénieur logiciel et développeur full stack basé à Tunis, en Tunisie, spécialisé dans les applications mobiles Flutter, les backends Node.js et les API REST.`,
     caseStudy: 'Étude de cas',
@@ -31,7 +31,7 @@ export const fr: Dictionary = {
     switchTo: { en: 'Passer en anglais', fr: 'Passer en français' },
   },
   hero: {
-    role: 'Ingénieur logiciel | Développeur Full Stack',
+    role: 'Ingénieur Informatique | Développeur Full Stack',
     headingLead: 'Des produits numériques fiables,',
     headingAccent: 'du mobile au backend.',
     text: `Je suis ingénieur logiciel et développeur Full Stack, spécialisé dans les applications mobiles Flutter, les systèmes backend Node.js et les API REST. J'aime transformer des besoins complexes en logiciels pratiques et maintenables.`,
