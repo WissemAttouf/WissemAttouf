@@ -54,6 +54,6 @@ export const experience: ExperienceItem[] = [
     bullets: {
       en: ['Contributed to an employer-declaration application for CNSS/CNRPS data submission.'],
       fr: ['Contribution à une application de déclaration d’employeur pour la transmission de données CNSS/CNRPS.'],
-    }, tech: ['Web development'],
+    }, tech: ['HTML', 'CSS', 'JavaScript', '.NET', 'MySQL'],
   },
 ];
