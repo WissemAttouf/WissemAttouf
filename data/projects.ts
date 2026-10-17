@@ -49,6 +49,7 @@ export const projects: Project[] = [
     featured: true,
     title: 'Neivos Facture',
     tech: ['Flutter', 'Dart', 'Node.js', 'Express.js', 'MySQL', 'OCR'],
+    githubUrl: 'https://github.com/WissemAttouf/Neivos-Facture',
     image: { src: '/images/projects/neivos-facture/home.png', alt: { en: 'Neivos Facture mobile app home screen', fr: "Écran d’accueil de l’application mobile Neivos Facture" } },
     screenshots: [
       { src: '/images/projects/neivos-facture/ocr.png', alt: { en: 'Invoice OCR workflow', fr: "Écran d’extraction OCR d’une facture" } },
@@ -137,6 +138,7 @@ export const projects: Project[] = [
     featured: true,
     title: 'Camping Management Platform',
     tech: ['PHP', 'Laravel', 'MySQL', 'JavaScript', 'Bootstrap'],
+    githubUrl: 'https://github.com/WissemAttouf/Gestion-Camping-',
     image: { src: '/images/projects/camping-management/accueil.png', alt: { en: 'Camping management platform home page', fr: 'Page d’accueil de la plateforme de gestion de camping' } },
     screenshots: [
       { src: '/images/projects/camping-management/details.png', alt: { en: 'Camping details page', fr: 'Page de détails du camping' } },
