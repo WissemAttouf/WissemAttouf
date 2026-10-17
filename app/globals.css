@@ -3,74 +3,27 @@
 @tailwind utilities;
 
 @layer base {
-  html {
-    scroll-behavior: smooth;
-    -webkit-text-size-adjust: 100%;
-  }
-
-  body {
-    @apply bg-navy-950 font-sans text-ink antialiased;
-  }
-
-  ::selection {
-    background: rgba(59, 130, 246, 0.35);
-  }
-
-  :focus-visible {
-    outline: 2px solid #22d3ee;
-    outline-offset: 3px;
-  }
-
-  /* Anchored sections must clear the fixed header. */
-  section[id] {
-    scroll-margin-top: 5rem;
-  }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  body { @apply bg-navy-950 font-sans text-ink antialiased; }
+  ::selection { background: rgba(59, 130, 246, 0.35); }
+  :focus-visible { outline: 2px solid #22d3ee; outline-offset: 3px; }
+  section[id] { scroll-margin-top: 5rem; }
 }
-
 @layer components {
-  .container-page {
-    @apply mx-auto w-full max-w-6xl px-5 sm:px-8;
-  }
-
-  .card {
-    @apply rounded-2xl border border-line bg-navy-900/70 shadow-card;
-  }
-
-  .chip {
-    @apply inline-flex items-center rounded-full border border-line bg-navy-950/60 px-2.5 py-1 text-xs font-medium text-slate-300;
-  }
-
+  .container-page { @apply mx-auto w-full max-w-6xl px-5 sm:px-8; }
+  .card { @apply rounded-2xl border border-line bg-navy-900/70 shadow-card; }
+  .chip { @apply inline-flex items-center rounded-full border border-line bg-navy-950/60 px-2.5 py-1 text-xs font-medium text-slate-300; }
   .hero-glow {
-    background:
-      radial-gradient(60% 50% at 75% 15%, rgba(59, 130, 246, 0.16), transparent 70%),
-      radial-gradient(40% 40% at 8% 0%, rgba(34, 211, 238, 0.07), transparent 70%);
+    background: radial-gradient(60% 50% at 75% 15%, rgba(59, 130, 246, 0.16), transparent 70%), radial-gradient(40% 40% at 8% 0%, rgba(34, 211, 238, 0.07), transparent 70%);
   }
-
-  .text-gradient {
-    background-image: linear-gradient(90deg, #60a5fa, #22d3ee);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-  }
+  .text-gradient { background-image: linear-gradient(90deg, #60a5fa, #22d3ee); -webkit-background-clip: text; background-clip: text; color: transparent; }
 }
-
 @media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-  }
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; }
 }
 
-
-
-/* Explicit light theme, controlled by the portfolio theme switcher. */
+/* Light theme: explicit high-contrast tokens across every portfolio section. */
 html[data-theme='light'] { color-scheme: light; }
 html[data-theme='light'] body { background-color: #f8fafc !important; color: #0f172a !important; }
 html[data-theme='light'] [class*="bg-navy-950"] { background-color: #f8fafc !important; }
@@ -84,10 +37,15 @@ html[data-theme='light'] .text-slate-400 { color: #475569 !important; }
 html[data-theme='light'] .border-line { border-color: #e2e8f0 !important; }
 html[data-theme='light'] .card,
 html[data-theme='light'] .chip { border-color: #e2e8f0 !important; box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06); }
+html[data-theme='light'] .card { background-color: #ffffff !important; }
 html[data-theme='light'] .chip { background-color: #f1f5f9 !important; color: #334155 !important; }
+/* Cover muted/brand text used inside project, experience, education, skills and contact cards. */
+html[data-theme='light'] .text-brand-400,
+html[data-theme='light'] .text-brand-500 { color: #1d4ed8 !important; }
+html[data-theme='light'] .text-accent { color: #0e7490 !important; }
+html[data-theme='light'] .marker\:text-brand-500 { --tw-text-opacity: 1; }
 html[data-theme='light'] .text-gradient { background-image: linear-gradient(90deg, #2563eb, #0891b2); }
 html[data-theme='light'] .hero-glow {
-  background:
-    radial-gradient(60% 50% at 75% 15%, rgba(59, 130, 246, 0.10), transparent 70%),
-    radial-gradient(40% 40% at 8% 0%, rgba(34, 211, 238, 0.06), transparent 70%);
+  background: radial-gradient(60% 50% at 75% 15%, rgba(59, 130, 246, 0.10), transparent 70%), radial-gradient(40% 40% at 8% 0%, rgba(34, 211, 238, 0.06), transparent 70%);
 }
+html[data-theme='light'] footer { background-color: #f1f5f9 !important; }
