@@ -23,7 +23,7 @@ export function Footer({ locale, dict }: FooterProps) {
         </div>
       </div>
       <div className="border-t border-line"><div className="container-page flex flex-col items-start justify-between gap-3 py-5 text-xs text-muted sm:flex-row sm:items-center">
-        <p>© {year} {site.name}. {dict.footer.rights}</p><p>{dict.footer.builtWith}</p>
+        <p>© {year} {site.name}. {dict.footer.rights}</p>
         <a href="#main" className="group inline-flex min-h-10 items-center gap-2 rounded-full border border-line bg-white px-4 py-2 text-sm font-semibold text-slate-800 shadow-sm transition-all hover:-translate-y-0.5 hover:border-brand-500 hover:bg-brand-50 hover:text-brand-700 focus-visible:outline-offset-4">
           <ArrowUp className="h-4 w-4 transition-transform group-hover:-translate-y-0.5" aria-hidden="true" />{dict.footer.backToTop}
         </a>
